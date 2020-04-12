@@ -1,0 +1,325 @@
+.up{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color:#84082B;
+  z-index: 10;
+}
+.blood{
+  position: absolute;
+  left: 10px;
+  margin-top: 15px;
+  font-size: 50px;
+  font-family: Old English Text MT;
+  color: white;
+}
+.logo{
+  position: absolute;
+  left: 230px;
+  margin-top: 15px;
+}
+.home{
+  position: absolute;
+  left: 620px;
+  top: 40px;
+  width: 120px;
+  height: 35px;
+  background-color:#84082B;
+  color: white;
+  font-size: 15px;
+  border:2px solid white;
+  border-radius: 15px;
+  outline: none;
+}
+.home:hover{
+  background-color:white;
+  color: #84082B;
+}
+.about{
+  position: absolute;
+  left: 750px;
+  top: 40px;
+  width: 120px;
+  height: 35px;
+  background-color:#84082B;
+  color: white;
+  font-size: 15px;
+  border:2px solid white;
+  border-radius: 15px;
+  outline: none;
+}
+.about:hover{
+  background-color:white;
+  color: #84082B;
+}
+.contact{
+  position: absolute;
+  left: 880px;
+  top: 40px;
+  width: 120px;
+  height: 35px;
+  background-color:#84082B;
+  color: white;
+  font-size: 15px;
+  border:2px solid white;
+  border-radius: 15px;
+  outline: none;
+}
+.contact:hover{
+  background-color:white;
+  color: #84082B;
+}
+
+
+
+
+.sign_in{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1316px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_inp{
+  position: fixed;
+  left: 1330px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.sign_in{
+  position: absolute;
+  left: 1250px;
+  top: 40px;
+  width: 120px;
+  height: 35px;
+  background-color:#84082B;
+  color: white;
+  font-size: 15px;
+  border:2px solid white;
+  border-radius: 15px;
+  outline: none;
+}
+.sign_in:hover{
+  background-color:white;
+  color: #84082B;
+}
+.sign_up{
+  position: absolute;
+  left: 1390px;
+  top: 40px;
+  width: 120px;
+  height: 35px;
+  background-color:#84082B;
+  color: white;
+  font-size: 15px;
+  border:2px solid white;
+  border-radius: 15px;
+  outline: none;
+}
+.sign_up:hover{
+  background-color:white;
+  color: #84082B;
+}
+
+.up_down{
+  border: 1px solid black;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 1100px;
+  height: 600px;
+}
+.form_top{
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  font-size: 20px;
+  font-family: cursive;
+  color: #84082B;
+}
+.form1{
+  border: 1px solid black;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  width: 820px;;
+  height: 500px;
+}
+.first_name{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.last_name{
+  border: 1px solid black;
+  position: absolute;
+  left: 420px;
+  top: 10px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+
+.father_name{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  padding: 10px;
+  width: 780px;
+  outline: none;
+}
+.mother_name{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  padding: 10px;
+  width: 780px;
+  outline: none;
+}
+.H_no{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.city{
+  border: 1px solid black;
+  position: absolute;
+  left: 420px;
+  top: 130px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.state{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 170px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.country{
+  border: 1px solid black;
+  position: absolute;
+  left: 420px;
+  top: 170px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.blood_groups{
+  position: absolute;
+  left: 320px;
+  top: 210px;
+  font-size: 20px;
+  font-family: cursive;
+  color: #84082B;
+}
+.select{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 210px;
+  top: 260px;
+  /* padding: 10px; */
+  width: 400px;
+  height: 30px;
+  color: #84082B;
+  font-family: cursive;
+}
+.A,.a,.B,.b,.AB,.ab,.O,.o{
+  position: relative;
+  left: 10px;
+  top: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.amount_b{
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 310px;
+  padding: 10px;
+  width: 370px;
+  outline: none;
+}
+.choose_file_p{
+  position: absolute;
+  left: 420px;
+  top: 370px;
+
+}
+.choose_file{
+  position: absolute;
+  left: 570px;
+  top: 385px;
+}
+.genter_select{
+  position: absolute;
+  left: 450px;
+  top: 310px;
+}
+.Male,.Female{
+  position: relative;
+  left: 520px;
+  top: 325px;
+  cursor: pointer;
+}
+.submit_gender{
+  position: absolute;
+  top: 325px;
+  left:660px;
+}
+.gender_on_screen{
+  border:1px solid black;
+  position: absolute;
+  top: 355px;
+  left:660px;
+  width: 130px;
+  height: 20px;
+}
+.submit_form{
+  position: absolute;
+  top: 455px;
+  left:370px;
+  font-size: 15px;
+  font-family: cursive;
+  background-color:  #84082B;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.submit_form:hover{
+  color: #84082B;
+  background-color:white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.footer{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:719px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #84082B;
+}

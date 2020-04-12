@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="rr2.css">
+    <link rel = "icon" href ="blood_logo.png" type = "image/x-icon">
+    <title></title>
+  </head>
+  <body>
+    <div class="up">
+   <p class="blood">BLOOD</p>
+   <img src="logo.png" alt="" class="logo">
+   <a href="re.html"><input type="button" name="" value="Home" class="home"></a>
+   <a href="rr3.html"><input type="button" name="" value="About us" class="about"></a>
+   <input type="button" name="" value="Contact us" class="contact">
+   </div>
+   <p class="form_top">Donar</p>
+    <div class="form1">
+    <input type="text" name="" value="" placeholder="Enter first name" class="first_name" id="first_name" >
+    <input type="text" name="" value="" placeholder="Enter last name" class="last_name" id="last_name">
+    <input type="text" name="" value="" placeholder="Enter  father name" class="father_name" id="father_name">
+    <input type="text" name="" value="" placeholder="Enter mother name" class="mother_name" id="mother_name">
+    <input type="text" name="" value="" placeholder="Enter H No." class="H_no" id="H_no">
+    <input type="text" name="" value="" placeholder="Enter City" class="city" id="city">
+    <input type="text" name="" value="" placeholder="Enter State" class="state" id="state">
+    <input type="text" name="" value="" placeholder="Enter Country" class="country" id="country">
+    <p class="blood_groups">Select the blood group</p>
+    <div class="select">
+      <input type="radio" name="blood" value="A+" class="A"  id="ap" ><span class="A">A+</span>
+      <input type="radio" name="blood" value="A-" class="a" id="an" ><span class="a">A-</span>
+      <input type="radio" name="blood" value="B+" class="B" id="bp" ><span class="B">B+</span>
+      <input type="radio" name="blood" value="B-" class="b"  id="bn" ><span class="b">B-</span>
+      <input type="radio" name="blood" value="AB+" class="AB" id="abp" ><span class="AB">AB+</span>
+      <input type="radio" name="blood" value="AB-" class="ab" id="abn" ><span class="ab">AB-</span>
+      <input type="radio" name="blood" value="O+" class="O" id="op" ><span class="O">O+</span>
+      <input type="radio" name="blood" value="O-" class="o" id="on" ><span class="o">O-</span>
+    </div>
+    <input type="number" name="" value="" placeholder="Enter amount of blood in your body" class="amount_b" id="amount_b">
+    <p class="choose_file_p">Upload your signature:</p><input type="file" id="myFile" multiple size="50" onchange="myFunction()" class="choose_file">
+    <p class="genter_select">Gender:</p>
+    <input type="radio" name="gender" value="Male" class="Male" id="male" onclick="male()"><span class="Male">Male</span>
+    <input type="radio" name="gender" value="Felmale" class="Female" id="felmale" onclick="female()" ><span class="Female" >Female</span>
+    <button type="button" onclick="displayRadioValue()" class="submit_gender">
+        Submit your gender
+    </button>
+    <div class="gender_on_screen" id="result"></div>
+    <button type="button"  class="submit_form" onclick="submit_alll()">
+        Submit
+    </button>
+    </div>
+
+
+
+
+
+    <div class="footer">
+
+      <p style="position:absolute;top:10px ;color:white;left: 10px;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Follow us:</p>
+      <p style="position:absolute;top:10px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Contact us:</p>
+      <p style="position:absolute;top:36px;left:300px;color:white;font-size:18px;">91+ 8761012548</p>
+      <p style="position:absolute;top:70px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">E-mail:</p>
+      <p style="position:absolute;top:92px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Rishikesh@gmail.com</p>
+      <p style="position:absolute;top:10px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Office-Address:</p>
+      <p style="position:absolute;top:36px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Plot no. 18A<br>Law gate,<br>Phagwara, Punjab, India<br>144401</p>
+       <p style="position:absolute;top:10px;left:970px;color:white;font-size:18px;">It is private network<br>Please read all Terms and Conditions before Payment</p>
+        <p style="position:absolute;top:70px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Link:</p>
+         <p style="position:absolute;top:92px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">www.India_car_rental.com</p>
+      <a href="https://www.gmail.com/mail/help/intl/en/about.html?utm_expid=..."><img src="email.png" alt="" style="position:absolute;width:30px;top:90px;left:10px;"></a>
+      <a href="https://twitter.com/login"><img src="tw.png" alt="" style="position:absolute; top:90px;left:60px;"></a>
+      <a href="https://www.facebook.com/?stype=lo&jlou=AfeolTKa9HuUTwkqgCpmVWGPFrqnMWQXcpo2GotkJZG3wIlYADZfsx2PkizaSkbqvsYRvKSfZpwWPBSumOfXRiaGIEjfpgBQ7xxUjrHSo6FMCQ&smuh=60324&lh=Ac96WsWa6NzQcHVY"><img src="fb.png" alt="" style="position:absolute;width:30px; top:90px;left:100px;"></a>
+      <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="insta.png" alt="" style="position:absolute;width:30px; top:90px;left:140px;"></a>
+
+    </div>
+   <script src="rr2.js">
+
+   </script>
+
+</body>
+</html>
